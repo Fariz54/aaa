@@ -12,7 +12,6 @@
     background-size: cover;
     position: relative;
 }
-
 nav {
     display: flex;
     padding: 2% 6%;
@@ -67,7 +66,7 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 62px;
+    font-size: 60px;
 }
 
 .text-box p {
@@ -100,7 +99,8 @@ nav .fa {
 
 @media(max-width: 700px) {
     .text-box h1 {
-        font-size: 20px;
+        font-size: 25px;
+        margin-top: 170px;
     }
     .nav-links ul li {
         display: block;
@@ -126,6 +126,16 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
+    .header{
+        min-height: 80vh;
+    }
+    #image{
+        height: 50%;
+    }
+
+    #hi{
+        text-align: justify;
+    }
 }
 /*-------course------*/
 
@@ -150,7 +160,6 @@ p {
 }
 
 .row {
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -175,7 +184,7 @@ h3 {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-@media(max-width: 700px) {
+@media(max-width: 900px) {
     .row {
         flex-direction: column;
     }
@@ -186,7 +195,6 @@ h3 {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
 }
 
 .campus-col {
@@ -232,13 +240,17 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
+@media(max-width: 900px) {
+    #hi {
+        text-align: justify;
+    }
+}
 /*----------facilities-------*/
 
 .facilities {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
 }
 
 .facilities-col {
@@ -268,7 +280,6 @@ h3 {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
 }
 
 .testimonials-col {
@@ -538,3 +549,32 @@ h3 {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+table{
+    border-collapse: collapse;
+    border-radius: 2px;
+}
+
+
+/*--------- try and error -----*/
+
+.try{
+    width: 100%;
+    background-color: #555;
+}
+.row{
+    padding: 40px;
+}
+@media(max-width: 700px) {
+    .try {
+        font-size: 17px;
+    }
+}
+@media(max-width: 900px) {
+    #hey{
+        font-size: 15px;
+        text-align: left;
+    }
+}
+
+
+
